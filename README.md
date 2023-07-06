@@ -1,8 +1,11 @@
 Data persistence (back-end)
 
-Coded in Flask, it is a full-stack Python framework and provides developers with flexibility in application structuring. It has a large community of users, due to its ease of use.
+Coded in Flask, it is a full-stack Python framework and provides developers with flexibility in application structuring. It has a large community of users, due to its ease of use. 
+I have 3 simple endpoints for getting tasks, adding a task, and making a task historic [/tasks, /task, /task/<int: id>].
 
 Used SQLite for database creation as this is a small test program. With SQLite DB, the data is stored in a single .db file.
+
+Since the description mentioned a simple program, I haven't invested much in design and layout. If I had more time and instruction I can make a lot of improvements in design and usability.
 
 UI (front-end) 
 
